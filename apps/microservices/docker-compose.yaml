@@ -106,7 +106,7 @@ services:
       NOTIFICATIONS_SERVICE_URL: http://notifications-service:3003
       PORT: 3000
     ports:
-      - "3000:3000"
+      - "3100:3000"
     depends_on:
       - users-service
       - tasks-service
